@@ -1,4 +1,4 @@
-package com.example.verygoodcore.lectometro
+package com.degreeapps.lectometro
 
 import io.flutter.embedding.android.FlutterActivity
 

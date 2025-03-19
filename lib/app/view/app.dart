@@ -1,6 +1,6 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:lectometro/counter/counter.dart';
-import 'package:easy_localization/easy_localization.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
