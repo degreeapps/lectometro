@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lectometro/counter/counter.dart';
-import 'package:lectometro/l10n/l10n.dart';
+import 'package:easy_localization/easy_localization.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -14,8 +14,9 @@ class App extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      localizationsDelegates: AppLocalizations.localizationsDelegates,
-      supportedLocales: AppLocalizations.supportedLocales,
+      locale: context.locale,
+      supportedLocales: context.supportedLocales,
+      localizationsDelegates: context.localizationDelegates,
       home: const CounterPage(),
     );
   }
